@@ -42,3 +42,12 @@ export const fetchReels = async ({ page = 0, jobId } = {}) => {
     throw new Error("Failed to fetch data");
   }
 };
+
+export const exportData = async () => {
+  return fetch(`${API_BASE_URL}/api/reels/export`)
+    .then((res) => res.blob())
+    .then((blob) => {
+      var file = window.URL.createObjectURL(blob);
+      window.location.assign(file);
+    });
+};
