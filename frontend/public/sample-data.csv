@@ -1,0 +1,6 @@
+id,username,status,progress,reels
+1,johndoe,completed,100,"[{""id"":101,""title"":""Summer Beach"",""views"":1250,""likes"":87},{""id"":102,""title"":""Mountain Hiking"",""views"":890,""likes"":43}]"
+2,janedoe,in_progress,65,"[{""id"":201,""title"":""City Lights"",""views"":3200,""likes"":145},{""id"":202,""title"":""Morning Coffee"",""views"":1800,""likes"":92},{""id"":203,""title"":""Sunset View"",""views"":2450,""likes"":118}]"
+3,bobsmith,pending,0,"[]"
+4,alicegreen,in_progress,30,"[{""id"":401,""title"":""Cooking Recipe"",""views"":750,""likes"":28}]"
+5,mikebrown,failed,0,"[{""id"":501,""title"":""Tech Review"",""views"":1500,""likes"":65},{""id"":502,""title"":""Gaming Montage"",""views"":980,""likes"":47}]"

@@ -1,0 +1,28 @@
+{
+  "name": "ig_auto-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npx playwright install chrome",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Anadam Gada",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "bullmq": "^5.52.2",
+    "cors": "^2.8.5",
+    "devices": "^0.1.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.0",
+    "papaparse": "^5.5.2",
+    "playwright": "^1.52.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
